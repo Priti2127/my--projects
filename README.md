@@ -1,129 +1,59 @@
 🧠 Java ML Project: Customer Churn Prediction using Tribuo
 📋 Overview
 
-This project demonstrates an end-to-end Machine Learning pipeline built entirely in Java using Tribuo
-, Oracle’s ML library.
-The goal is to predict customer churn (whether a user will leave a service) based on demographic and behavioral data.
+This repository is a fork of the original open-source Tribuo Machine Learning project by Oracle.
+It demonstrates how to use Tribuo to perform customer churn prediction — determining whether a customer is likely to leave a service based on demographic and behavioral data.
 
-It covers:
-
-Data ingestion and preprocessing
-
-Model training and evaluation
-
-Model persistence (saving/loading models)
-
-REST API for serving predictions
+This version was copied for learning and demonstration purposes, without modification to the original source code.
 
 ⚙️ Tech Stack
 Category	Technology
 Language	Java 17
 ML Framework	Tribuo
 Build Tool	Maven
-API Layer	Spring Boot
-Data Storage	CSV / MySQL
-Visualization	JFreeChart / Matplotlib (via Python bridge, optional)
-Containerization	Docker (optional)
-🧩 Features
-
-✅ Load and preprocess structured CSV data
-✅ Train supervised ML models (e.g., Logistic Regression, Random Forest)
-✅ Evaluate models with accuracy, precision, recall, and F1 metrics
-✅ Export trained model to file for later inference
-✅ REST endpoint to make real-time predictions
-
-🗂️ Project Structure
-tribuo-churn-prediction/
-├── src/
-│   ├── main/
-│   │   ├── java/com/example/tribuo/
-│   │   │   ├── Main.java
-│   │   │   ├── DataLoader.java
-│   │   │   ├── ModelTrainer.java
-│   │   │   ├── PredictorService.java
-│   │   │   ├── RestController.java
-│   │   └── resources/
-│   │       └── churn_data.csv
-├── pom.xml
-├── README.md
-└── LICENSE
-
+Data Storage	CSV
+License	Apache License 2.0
 🚀 Getting Started
-1️⃣ Clone the repository
+
+Clone this repository
+
 git clone https://github.com/<your-username>/tribuo-churn-prediction.git
 cd tribuo-churn-prediction
 
-2️⃣ Build with Maven
+
+Build the project
+
 mvn clean package
 
-3️⃣ Run the application
-mvn spring-boot:run
 
-4️⃣ Access the API
+Run example
 
-Once the Spring Boot server is running:
+java -jar target/tribuo-churn-prediction.jar
 
-POST http://localhost:8080/predict
-Body:
-{
-  "age": 34,
-  "tenure": 5,
-  "balance": 4200.50,
-  "numOfProducts": 2,
-  "isActiveMember": true
-}
+🧩 About Tribuo
 
-📊 Example Output
-Prediction: Customer likely to churn (Probability: 0.83)
-Model: Logistic Regression (Tribuo v4.x)
-Accuracy: 87.2%
+Tribuo
+ is an open-source Java machine learning library developed by Oracle Labs.
+It provides a consistent API for classification, regression, clustering, and anomaly detection, with built-in model evaluation and provenance tracking.
 
-🧮 Model Training Example
-var dataSource = new CSVLoader<>(new LabelFactory()).loadDataSource("churn_data.csv", "churn");
-var splitter = new TrainTestSplitter<>(dataSource, 0.7, 1L);
-var trainData = new MutableDataset<>(splitter.getTrain());
-var testData = new MutableDataset<>(splitter.getTest());
+This repository serves as an educational fork to understand Tribuo’s capabilities.
 
-var trainer = new LogisticRegressionTrainer();
-var model = trainer.train(trainData);
+📦 License
 
-var evaluator = new LabelEvaluator();
-var evaluation = evaluator.evaluate(model, testData);
-System.out.println(evaluation.toString());
+This project is licensed under the Apache License, Version 2.0 (January 2004).
+You may obtain a copy of the License at:
 
-📦 Dataset
+http://www.apache.org/licenses/LICENSE-2.0
 
-You can use:
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an “AS IS” BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and limitations under the License.
 
-Telco Customer Churn dataset (Kaggle)
+🪪 Attribution
 
-Save it as churn_data.csv in the resources/ folder.
+Original Work: Oracle / Tribuo
 
-🧰 Future Enhancements
+Original License: Apache License 2.0
 
-Add deep learning model integration (via ONNX or TensorFlow export)
+This Fork Maintained by:Priti Walunj , 2025
 
-Implement web dashboard for visual insights
-
-CI/CD pipeline for model retraining
-
-Deploy prediction API to AWS/GCP/Azure
-
-🧑‍💻 Author
-
-Your Name
-📧 your.email@example.com
-
-🌐 LinkedIn
- • GitHub
-
-📜 License
-
-This project is licensed under the MIT License — see the LICENSE
- file for details.
-
-🏆 Resume Bullet Example
-
-• Built an end-to-end Java ML system using Tribuo for customer churn prediction.
-• Trained and deployed models via Spring Boot REST API (87% accuracy).
-• Implemented modular architecture with Maven, Docker, and MySQL persistence.
