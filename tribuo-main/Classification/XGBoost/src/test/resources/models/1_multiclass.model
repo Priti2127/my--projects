@@ -1,0 +1,269 @@
+&org.tribuo.common.xgboost.XGBoostModelÂ}
+;type.googleapis.com/tribuo.common.xgboost.XGBoostModelProto•}
+òs
+xgboost-classification-modelæ<
+Óxgboostmodel-0&org.tribuo.common.xgboost.XGBoostModel"%org.tribuo.provenance.ModelProvenance*
+instance-values*
+tribuo-version*
+java-version*
+trainer*
+os-arch*
+
+trained-at*
+os-name*
+dataset*
+
+class-name	
+ı
+mutabledataset-1org.tribuo.MutableDataset"'org.tribuo.provenance.DatasetProvenance*
+num-features*
+num-examples*
+num-outputs*
+tribuo-version*
+
+datasource*
+transformations*
+is-sequence*
+is-dense*
+
+class-name
+∫xgboostclassificationtrainer-2>org.tribuo.classification.xgboost.XGBoostClassificationTrainer"0org.tribuo.provenance.impl.TrainerProvenanceImpl*
+numTrees*
+
+silent*
+seed*
+train-invocation-count*
+is-sequence*
+featureSubsample*
+minChildWeight*
+nThread*
+booster*
+
+evalMetric*
+host-short-name*
+
+class-name *
+maxDepth!*
+
+lambda"*
+eta#*
+tribuo-version$*	
+alpha%*
+	subsample&*	
+gamma'
+±(simpletextdatasource-3.org.tribuo.data.text.impl.SimpleTextDataSource"Morg.tribuo.data.text.impl.SimpleTextDataSource$SimpleTextDataSourceProvenance*
+resource-hash)*
+path**
+file-modified-time+*
+preprocessors,*
+datasource-creation-time-*
+	extractor.*
+outputFactory/*
+
+class-name0
+–1textfeatureextractorimpl-42org.tribuo.data.text.impl.TextFeatureExtractorImpl"Icom.oracle.labs.mlrg.olcut.provenance.impl.ConfiguredObjectProvenanceImpl*
+pipeline2*
+host-short-name3*
+
+class-name4
+â5labelfactory-5&org.tribuo.classification.LabelFactory"=org.tribuo.classification.LabelFactory$LabelFactoryProvenance*
+
+class-name6
+Â7tokenpipeline-6'org.tribuo.data.text.impl.TokenPipeline"Icom.oracle.labs.mlrg.olcut.provenance.impl.ConfiguredObjectProvenanceImpl*
+termCounting8*
+hashDim9*	
+ngram:*
+host-short-name;*
+
+class-name<*
+	tokenizer=
+œ>breakiteratortokenizer-72org.tribuo.util.tokens.impl.BreakIteratorTokenizer"Icom.oracle.labs.mlrg.olcut.provenance.impl.ConfiguredObjectProvenanceImpl*
+	localeStr?*
+host-short-name@*
+
+class-nameAetribuo-version3.1.0-SNAPSHOT*Acom.oracle.labs.mlrg.olcut.provenance.primitives.StringProvenancedjava-versionunknown-version*Acom.oracle.labs.mlrg.olcut.provenance.primitives.StringProvenance_trainerxgboostclassificationtrainer-2*0org.tribuo.provenance.impl.TrainerProvenanceImpl0_os-archunknown-version*Acom.oracle.labs.mlrg.olcut.provenance.primitives.StringProvenancer
+trained-at2020-04-24T16:43:00.099-04:00*Ccom.oracle.labs.mlrg.olcut.provenance.primitives.DateTimeProvenance_os-nameunknown-version*Acom.oracle.labs.mlrg.olcut.provenance.primitives.StringProvenanceHdatasetmutabledataset-1*'org.tribuo.provenance.DatasetProvenance0y	
+class-name&org.tribuo.common.xgboost.XGBoostModel*Acom.oracle.labs.mlrg.olcut.provenance.primitives.StringProvenanceTnum-features56*>com.oracle.labs.mlrg.olcut.provenance.primitives.IntProvenanceVnum-examples1000*>com.oracle.labs.mlrg.olcut.provenance.primitives.IntProvenanceRnum-outputs3*>com.oracle.labs.mlrg.olcut.provenance.primitives.IntProvenanceetribuo-version3.1.0-SNAPSHOT*Acom.oracle.labs.mlrg.olcut.provenance.primitives.StringProvenancew
+datasourcesimpletextdatasource-3*Morg.tribuo.data.text.impl.SimpleTextDataSource$SimpleTextDataSourceProvenance0Zis-sequencefalse*Bcom.oracle.labs.mlrg.olcut.provenance.primitives.BooleanProvenanceWis-densefalse*Bcom.oracle.labs.mlrg.olcut.provenance.primitives.BooleanProvenancel
+class-nameorg.tribuo.MutableDataset*Acom.oracle.labs.mlrg.olcut.provenance.primitives.StringProvenanceOnumTrees1*>com.oracle.labs.mlrg.olcut.provenance.primitives.IntProvenanceMsilent0*>com.oracle.labs.mlrg.olcut.provenance.primitives.IntProvenancePseed12345*?com.oracle.labs.mlrg.olcut.provenance.primitives.LongProvenance]train-invocation-count0*>com.oracle.labs.mlrg.olcut.provenance.primitives.IntProvenanceZis-sequencefalse*Bcom.oracle.labs.mlrg.olcut.provenance.primitives.BooleanProvenance\featureSubsample0.0*Acom.oracle.labs.mlrg.olcut.provenance.primitives.DoubleProvenanceZminChildWeight1.0*Acom.oracle.labs.mlrg.olcut.provenance.primitives.DoubleProvenanceNnThread1*>com.oracle.labs.mlrg.olcut.provenance.primitives.IntProvenanceäboosterGBTREE"4org.tribuo.common.xgboost.XGBoostTrainer$BoosterType*?com.oracle.labs.mlrg.olcut.provenance.primitives.EnumProvenanceQ
+evalMetric*Acom.oracle.labs.mlrg.olcut.provenance.primitives.StringProvenance_host-short-nameTrainer*Acom.oracle.labs.mlrg.olcut.provenance.primitives.StringProvenanceë 
+class-name>org.tribuo.classification.xgboost.XGBoostClassificationTrainer*Acom.oracle.labs.mlrg.olcut.provenance.primitives.StringProvenanceO!maxDepth6*>com.oracle.labs.mlrg.olcut.provenance.primitives.IntProvenanceR"lambda1.0*Acom.oracle.labs.mlrg.olcut.provenance.primitives.DoubleProvenance_#eta0.30000001192092896*Acom.oracle.labs.mlrg.olcut.provenance.primitives.DoubleProvenancee$tribuo-version3.1.0-SNAPSHOT*Acom.oracle.labs.mlrg.olcut.provenance.primitives.StringProvenanceQ%alpha0.0*Acom.oracle.labs.mlrg.olcut.provenance.primitives.DoubleProvenanceU&	subsample1.0*Acom.oracle.labs.mlrg.olcut.provenance.primitives.DoubleProvenanceQ'gamma0.0*Acom.oracle.labs.mlrg.olcut.provenance.primitives.DoubleProvenanceú)resource-hash@0970EE8289DA02BC4CBA7B73510D06E9CA71A4A660A5FDB1404A89228776BEF8"SHA256*?com.oracle.labs.mlrg.olcut.provenance.primitives.HashProvenance©*path^/Users/apocock/Oracle/Repositories/Tribuo/Classification/XGBoost/train_input_multiclass.tribuo*?com.oracle.labs.mlrg.olcut.provenance.primitives.FileProvenancev+file-modified-time2020-04-24T16:42:58-04:00*Ccom.oracle.labs.mlrg.olcut.provenance.primitives.DateTimeProvenanceÄ-datasource-creation-time2020-04-24T16:42:59.916-04:00*Ccom.oracle.labs.mlrg.olcut.provenance.primitives.DateTimeProvenancev.	extractortextfeatureextractorimpl-4*Icom.oracle.labs.mlrg.olcut.provenance.impl.ConfiguredObjectProvenanceImpl0b/outputFactorylabelfactory-5*=org.tribuo.classification.LabelFactory$LabelFactoryProvenance0Å0
+class-name.org.tribuo.data.text.impl.SimpleTextDataSource*Acom.oracle.labs.mlrg.olcut.provenance.primitives.StringProvenancej2pipelinetokenpipeline-6*Icom.oracle.labs.mlrg.olcut.provenance.impl.ConfiguredObjectProvenanceImpl0l3host-short-nameTextFeatureExtractor*Acom.oracle.labs.mlrg.olcut.provenance.primitives.StringProvenanceÖ4
+class-name2org.tribuo.data.text.impl.TextFeatureExtractorImpl*Acom.oracle.labs.mlrg.olcut.provenance.primitives.StringProvenancey6
+class-name&org.tribuo.classification.LabelFactory*Acom.oracle.labs.mlrg.olcut.provenance.primitives.StringProvenance[8termCountingfalse*Bcom.oracle.labs.mlrg.olcut.provenance.primitives.BooleanProvenanceO9hashDim-1*>com.oracle.labs.mlrg.olcut.provenance.primitives.IntProvenanceL:ngram2*>com.oracle.labs.mlrg.olcut.provenance.primitives.IntProvenanced;host-short-nameTextPipeline*Acom.oracle.labs.mlrg.olcut.provenance.primitives.StringProvenancez<
+class-name'org.tribuo.data.text.impl.TokenPipeline*Acom.oracle.labs.mlrg.olcut.provenance.primitives.StringProvenancet=	tokenizerbreakiteratortokenizer-7*Icom.oracle.labs.mlrg.olcut.provenance.impl.ConfiguredObjectProvenanceImpl0W?	localeStren-US*Acom.oracle.labs.mlrg.olcut.provenance.primitives.StringProvenancea@host-short-name	Tokenizer*Acom.oracle.labs.mlrg.olcut.provenance.primitives.StringProvenanceÖA
+class-name2org.tribuo.util.tokens.impl.BreakIteratorTokenizer*Acom.oracle.labs.mlrg.olcut.provenance.primitives.StringProvenance"","ê5org.tribuo.ImmutableFeatureMapÌ4
+8type.googleapis.com/tribuo.core.ImmutableFeatureMapProto∞4
+vorg.tribuo.CategoricalIDInfoV
+6type.googleapis.com/tribuo.core.CategoricalIDInfoProto
+2-N=bbb/eeeVa      ?hV
+vorg.tribuo.CategoricalIDInfoV
+6type.googleapis.com/tribuo.core.CategoricalIDInfoProto
+2-N=fff/dddb-a      ?hb
+vorg.tribuo.CategoricalIDInfoV
+6type.googleapis.com/tribuo.core.CategoricalIDInfoProto
+2-N=bbb/aaaKa      ?hK
+vorg.tribuo.CategoricalIDInfoV
+6type.googleapis.com/tribuo.core.CategoricalIDInfoProto
+2-N=eee/bbbI$a      ?hI
+vorg.tribuo.CategoricalIDInfoV
+6type.googleapis.com/tribuo.core.CategoricalIDInfoProto
+2-N=ggg/fffW6a      ?hW
+vorg.tribuo.CategoricalIDInfoV
+6type.googleapis.com/tribuo.core.CategoricalIDInfoProto
+2-N=ccc/gggXa      ?hX
+vorg.tribuo.CategoricalIDInfoV
+6type.googleapis.com/tribuo.core.CategoricalIDInfoProto
+2-N=aaa/ggg\a      ?h\
+vorg.tribuo.CategoricalIDInfoV
+6type.googleapis.com/tribuo.core.CategoricalIDInfoProto
+2-N=ggg/bbbT2a      ?hT
+vorg.tribuo.CategoricalIDInfoV
+6type.googleapis.com/tribuo.core.CategoricalIDInfoProto
+2-N=aaa/cccQ	a      ?hQ
+vorg.tribuo.CategoricalIDInfoV
+6type.googleapis.com/tribuo.core.CategoricalIDInfoProto
+2-N=ddd/dddHa      ?hH
+vorg.tribuo.CategoricalIDInfoV
+6type.googleapis.com/tribuo.core.CategoricalIDInfoProto
+2-N=eee/fffR(a      ?hR
+vorg.tribuo.CategoricalIDInfoV
+6type.googleapis.com/tribuo.core.CategoricalIDInfoProto
+2-N=ccc/cccBa      ?hB
+torg.tribuo.CategoricalIDInfoT
+6type.googleapis.com/tribuo.core.CategoricalIDInfoProto
+1-N=ccc˚a      ?h˚
+torg.tribuo.CategoricalIDInfoT
+6type.googleapis.com/tribuo.core.CategoricalIDInfoProto
+1-N=gggàa      ?hà
+vorg.tribuo.CategoricalIDInfoV
+6type.googleapis.com/tribuo.core.CategoricalIDInfoProto
+2-N=bbb/fffRa      ?hR
+vorg.tribuo.CategoricalIDInfoV
+6type.googleapis.com/tribuo.core.CategoricalIDInfoProto
+2-N=fff/cccD,a      ?hD
+vorg.tribuo.CategoricalIDInfoV
+6type.googleapis.com/tribuo.core.CategoricalIDInfoProto
+2-N=bbb/bbbHa      ?hH
+vorg.tribuo.CategoricalIDInfoV
+6type.googleapis.com/tribuo.core.CategoricalIDInfoProto
+2-N=eee/cccU%a      ?hU
+vorg.tribuo.CategoricalIDInfoV
+6type.googleapis.com/tribuo.core.CategoricalIDInfoProto
+2-N=ccc/fffXa      ?hX
+vorg.tribuo.CategoricalIDInfoV
+6type.googleapis.com/tribuo.core.CategoricalIDInfoProto
+2-N=fff/gggZ0a      ?hZ
+vorg.tribuo.CategoricalIDInfoV
+6type.googleapis.com/tribuo.core.CategoricalIDInfoProto
+2-N=ggg/ggg>7a      ?h>
+vorg.tribuo.CategoricalIDInfoV
+6type.googleapis.com/tribuo.core.CategoricalIDInfoProto
+2-N=aaa/fffRa      ?hR
+vorg.tribuo.CategoricalIDInfoV
+6type.googleapis.com/tribuo.core.CategoricalIDInfoProto
+2-N=ggg/cccV3a      ?hV
+vorg.tribuo.CategoricalIDInfoV
+6type.googleapis.com/tribuo.core.CategoricalIDInfoProto
+2-N=aaa/bbbZa      ?hZ
+vorg.tribuo.CategoricalIDInfoV
+6type.googleapis.com/tribuo.core.CategoricalIDInfoProto
+2-N=ddd/cccSa      ?hS
+vorg.tribuo.CategoricalIDInfoV
+6type.googleapis.com/tribuo.core.CategoricalIDInfoProto
+2-N=ddd/gggJ"a      ?hJ
+torg.tribuo.CategoricalIDInfoT
+6type.googleapis.com/tribuo.core.CategoricalIDInfoProto
+1-N=bbb˙a      ?h˙
+torg.tribuo.CategoricalIDInfoT
+6type.googleapis.com/tribuo.core.CategoricalIDInfoProto
+1-N=fffÖa      ?hÖ
+vorg.tribuo.CategoricalIDInfoV
+6type.googleapis.com/tribuo.core.CategoricalIDInfoProto
+2-N=eee/gggV)a      ?hV
+vorg.tribuo.CategoricalIDInfoV
+6type.googleapis.com/tribuo.core.CategoricalIDInfoProto
+2-N=ccc/bbbNa      ?hN
+vorg.tribuo.CategoricalIDInfoV
+6type.googleapis.com/tribuo.core.CategoricalIDInfoProto
+2-N=fff/fffO/a      ?hO
+vorg.tribuo.CategoricalIDInfoV
+6type.googleapis.com/tribuo.core.CategoricalIDInfoProto
+2-N=bbb/cccJa      ?hJ
+vorg.tribuo.CategoricalIDInfoV
+6type.googleapis.com/tribuo.core.CategoricalIDInfoProto
+2-N=aaa/eeeQa      ?hQ
+vorg.tribuo.CategoricalIDInfoV
+6type.googleapis.com/tribuo.core.CategoricalIDInfoProto
+2-N=aaa/aaa6a      ?h6
+vorg.tribuo.CategoricalIDInfoV
+6type.googleapis.com/tribuo.core.CategoricalIDInfoProto
+2-N=ddd/bbbSa      ?hS
+vorg.tribuo.CategoricalIDInfoV
+6type.googleapis.com/tribuo.core.CategoricalIDInfoProto
+2-N=ggg/dddL4a      ?hL
+vorg.tribuo.CategoricalIDInfoV
+6type.googleapis.com/tribuo.core.CategoricalIDInfoProto
+2-N=ddd/fffJ!a      ?hJ
+rorg.tribuo.CategoricalIDInfoR
+6type.googleapis.com/tribuo.core.CategoricalIDInfoProto
+1-N=aaaÉa      ?hÉ
+vorg.tribuo.CategoricalIDInfoV
+6type.googleapis.com/tribuo.core.CategoricalIDInfoProto
+2-N=ccc/eeeRa      ?hR
+torg.tribuo.CategoricalIDInfoT
+6type.googleapis.com/tribuo.core.CategoricalIDInfoProto
+1-N=eee˝a      ?h˝
+vorg.tribuo.CategoricalIDInfoV
+6type.googleapis.com/tribuo.core.CategoricalIDInfoProto
+2-N=eee/dddT&a      ?hT
+vorg.tribuo.CategoricalIDInfoV
+6type.googleapis.com/tribuo.core.CategoricalIDInfoProto
+2-N=ccc/aaaXa      ?hX
+vorg.tribuo.CategoricalIDInfoV
+6type.googleapis.com/tribuo.core.CategoricalIDInfoProto
+2-N=fff/bbbN+a      ?hN
+vorg.tribuo.CategoricalIDInfoV
+6type.googleapis.com/tribuo.core.CategoricalIDInfoProto
+2-N=bbb/gggVa      ?hV
+vorg.tribuo.CategoricalIDInfoV
+6type.googleapis.com/tribuo.core.CategoricalIDInfoProto
+2-N=fff/eeeF.a      ?hF
+vorg.tribuo.CategoricalIDInfoV
+6type.googleapis.com/tribuo.core.CategoricalIDInfoProto
+2-N=bbb/dddBa      ?hB
+vorg.tribuo.CategoricalIDInfoV
+6type.googleapis.com/tribuo.core.CategoricalIDInfoProto
+2-N=eee/aaaI#a      ?hI
+vorg.tribuo.CategoricalIDInfoV
+6type.googleapis.com/tribuo.core.CategoricalIDInfoProto
+2-N=aaa/dddN
+a      ?hN
+vorg.tribuo.CategoricalIDInfoV
+6type.googleapis.com/tribuo.core.CategoricalIDInfoProto
+2-N=ddd/aaaLa      ?hL
+vorg.tribuo.CategoricalIDInfoV
+6type.googleapis.com/tribuo.core.CategoricalIDInfoProto
+2-N=ggg/eeeT5a      ?hT
+vorg.tribuo.CategoricalIDInfoV
+6type.googleapis.com/tribuo.core.CategoricalIDInfoProto
+2-N=ddd/eeeQ a      ?hQ
+vorg.tribuo.CategoricalIDInfoV
+6type.googleapis.com/tribuo.core.CategoricalIDInfoProto
+2-N=ggg/aaaZ1a      ?hZ
+vorg.tribuo.CategoricalIDInfoV
+6type.googleapis.com/tribuo.core.CategoricalIDInfoProto
+2-N=ccc/dddQa      ?hQ
+torg.tribuo.CategoricalIDInfoT
+6type.googleapis.com/tribuo.core.CategoricalIDInfoProto
+1-N=ddd˜a      ?h˜
+vorg.tribuo.CategoricalIDInfoV
+6type.googleapis.com/tribuo.core.CategoricalIDInfoProto
+2-N=eee/eeeG'a      ?hG
+vorg.tribuo.CategoricalIDInfoV
+6type.googleapis.com/tribuo.core.CategoricalIDInfoProto
+2-N=fff/aaa\*a      ?h\*ë,org.tribuo.classification.ImmutableLabelInfoa
+Atype.googleapis.com/tribuo.classification.ImmutableLabelInfoProto
+NEG
+POS
+NEU¿»‡ 23.1.0-SNAPSHOTB@org.tribuo.classification.xgboost.XGBoostClassificationConverter√	binf   ?8                                                                                                                                     multi:softprob       gbtree                                                                                                                                                                            8                                                                                                                                   ˇˇˇˇ      7  Ä  Äµ   Äˇˇˇˇˇˇˇˇ    +9	º    ˇˇˇˇˇˇˇˇ    ópèºÄ´√<„8ﬁCj5ıº       ∆q–Cú¥‰º        ∆q‹A˚oΩ                  8                                                                                                                                   ˇˇˇˇ      0  Ä  Äµ   Äˇˇˇˇˇˇˇˇ    °O;    ˇˇˇˇˇˇˇˇ    ƒoΩR‡¡?„8ﬁCÿ*Dº       „8 C∑Ñ◊;        ˇˇBŒGæ                  8                                                                                                                                   ˇˇˇˇ        Ä  Äµ   Äˇˇˇˇˇˇˇˇ     o!<    ˇˇˇˇˇˇˇˇ    ¶åJ=FJ˚>„8ﬁCG•+=       8éœC*á=        ™™ÍAä (>                     	       objectiveF       {"name":"multi:softprob","softmax_multiclass_param":{"num_class":"3"}}

@@ -1,0 +1,232 @@
+*org.tribuo.clustering.hdbscan.HdbscanModelÿ‚
+?type.googleapis.com/tribuo.clustering.hdbscan.HdbscanModelProtoº‚
+öP
+hdbscan-modelÜK
+òhdbscanmodel-0*org.tribuo.clustering.hdbscan.HdbscanModel"%org.tribuo.provenance.ModelProvenance*
+instance-values*
+tribuo-version*
+java-version*
+trainer*
+os-arch*
+
+trained-at*
+os-name*
+dataset*
+
+class-name	
+õ
+mutabledataset-1org.tribuo.MutableDataset"'org.tribuo.provenance.DatasetProvenance*
+num-features*
+num-examples*
+num-outputs*
+tribuo-version*
+
+datasource*
+transformations*
+is-sequence*
+is-dense*
+
+class-name
+—hdbscantrainer-2,org.tribuo.clustering.hdbscan.HdbscanTrainer"0org.tribuo.provenance.impl.TrainerProvenanceImpl*
+tribuo-version*
+distanceType*
+train-invocation-count*
+is-sequence*
+minClusterSize*
+k*
+
+numThreads*
+host-short-name*
+
+class-name
+Ícsvdatasource-3!org.tribuo.data.csv.CSVDataSource"9org.tribuo.data.csv.CSVDataSource$CSVDataSourceProvenance*
+resource-hash*
+headers *
+rowProcessor!*
+file-modified-time"*	
+quote#*
+outputRequired$*
+datasource-creation-time%*
+outputFactory&*
+	separator'*
+host-short-name(*
+
+class-name)*
+dataPath*
+×+rowprocessor-4%org.tribuo.data.columnar.RowProcessor"Icom.oracle.labs.mlrg.olcut.provenance.impl.ConfiguredObjectProvenanceImpl*
+metadataExtractors,*
+fieldProcessorList-*
+featureProcessors1*
+responseProcessor2*
+weightExtractor3*
+replaceNewlinesWithSpaces4*
+regexMappingProcessors5*
+host-short-name6*
+
+class-name7
+–8clusteringfactory-11'org.tribuo.clustering.ClusteringFactory"Corg.tribuo.clustering.ClusteringFactory$ClusteringFactoryProvenance*
+
+class-name9
+€:doublefieldprocessor-6>org.tribuo.data.columnar.processors.field.DoubleFieldProcessor"Icom.oracle.labs.mlrg.olcut.provenance.impl.ConfiguredObjectProvenanceImpl*
+	fieldName;*
+onlyFieldName<*
+throwOnInvalid=*
+host-short-name>*
+
+class-name?
+€@doublefieldprocessor-7>org.tribuo.data.columnar.processors.field.DoubleFieldProcessor"Icom.oracle.labs.mlrg.olcut.provenance.impl.ConfiguredObjectProvenanceImpl*
+	fieldNameA*
+onlyFieldNameB*
+throwOnInvalidC*
+host-short-nameD*
+
+class-nameE
+€Fdoublefieldprocessor-8>org.tribuo.data.columnar.processors.field.DoubleFieldProcessor"Icom.oracle.labs.mlrg.olcut.provenance.impl.ConfiguredObjectProvenanceImpl*
+	fieldNameG*
+onlyFieldNameH*
+throwOnInvalidI*
+host-short-nameJ*
+
+class-nameK
+äLemptyresponseprocessor-9Corg.tribuo.data.columnar.processors.response.EmptyResponseProcessor"Icom.oracle.labs.mlrg.olcut.provenance.impl.ConfiguredObjectProvenanceImpl*
+outputFactoryM*
+host-short-nameN*
+
+class-nameO
+“Pfieldextractor-10'org.tribuo.data.columnar.FieldExtractor"Ccom.oracle.labs.mlrg.olcut.provenance.impl.NullConfiguredProvenance*
+
+class-nameQetribuo-version4.3.0-SNAPSHOT*Acom.oracle.labs.mlrg.olcut.provenance.primitives.StringProvenance\java-version11.0.12*Acom.oracle.labs.mlrg.olcut.provenance.primitives.StringProvenanceQtrainerhdbscantrainer-2*0org.tribuo.provenance.impl.TrainerProvenanceImpl0Vos-archx86_64*Acom.oracle.labs.mlrg.olcut.provenance.primitives.StringProvenanceu
+trained-at 2022-03-23T16:12:30.956185-07:00*Ccom.oracle.labs.mlrg.olcut.provenance.primitives.DateTimeProvenanceXos-nameMac OS X*Acom.oracle.labs.mlrg.olcut.provenance.primitives.StringProvenanceHdatasetmutabledataset-1*'org.tribuo.provenance.DatasetProvenance0}	
+class-name*org.tribuo.clustering.hdbscan.HdbscanModel*Acom.oracle.labs.mlrg.olcut.provenance.primitives.StringProvenanceSnum-features3*>com.oracle.labs.mlrg.olcut.provenance.primitives.IntProvenanceVnum-examples1980*>com.oracle.labs.mlrg.olcut.provenance.primitives.IntProvenanceRnum-outputs0*>com.oracle.labs.mlrg.olcut.provenance.primitives.IntProvenanceetribuo-version4.3.0-SNAPSHOT*Acom.oracle.labs.mlrg.olcut.provenance.primitives.StringProvenance\
+datasourcecsvdatasource-3*9org.tribuo.data.csv.CSVDataSource$CSVDataSourceProvenance0Zis-sequencefalse*Bcom.oracle.labs.mlrg.olcut.provenance.primitives.BooleanProvenanceVis-densetrue*Bcom.oracle.labs.mlrg.olcut.provenance.primitives.BooleanProvenancel
+class-nameorg.tribuo.MutableDataset*Acom.oracle.labs.mlrg.olcut.provenance.primitives.StringProvenanceetribuo-version4.3.0-SNAPSHOT*Acom.oracle.labs.mlrg.olcut.provenance.primitives.StringProvenance“distanceType	EUCLIDEAN"5org.tribuo.clustering.hdbscan.HdbscanTrainer$Distance*?com.oracle.labs.mlrg.olcut.provenance.primitives.EnumProvenance]train-invocation-count0*>com.oracle.labs.mlrg.olcut.provenance.primitives.IntProvenanceZis-sequencefalse*Bcom.oracle.labs.mlrg.olcut.provenance.primitives.BooleanProvenanceUminClusterSize7*>com.oracle.labs.mlrg.olcut.provenance.primitives.IntProvenanceHk7*>com.oracle.labs.mlrg.olcut.provenance.primitives.IntProvenanceQ
+numThreads1*>com.oracle.labs.mlrg.olcut.provenance.primitives.IntProvenance_host-short-nameTrainer*Acom.oracle.labs.mlrg.olcut.provenance.primitives.StringProvenance
+class-name,org.tribuo.clustering.hdbscan.HdbscanTrainer*Acom.oracle.labs.mlrg.olcut.provenance.primitives.StringProvenanceœresource-hash@425B2DF634AD1DD2C6FB009DAE8B57DE87D95010FB266CDE55BA4EAA4635349D"SHA256*?com.oracle.labs.mlrg.olcut.provenance.primitives.HashProvenancem!rowProcessorrowprocessor-4*Icom.oracle.labs.mlrg.olcut.provenance.impl.ConfiguredObjectProvenanceImpl0z"file-modified-time2021-12-02T16:57:11.980-08:00*Ccom.oracle.labs.mlrg.olcut.provenance.primitives.DateTimeProvenanceM#quote"*?com.oracle.labs.mlrg.olcut.provenance.primitives.CharProvenance]$outputRequiredfalse*Bcom.oracle.labs.mlrg.olcut.provenance.primitives.BooleanProvenanceƒ%datasource-creation-time 2022-03-23T16:12:29.510184-07:00*Ccom.oracle.labs.mlrg.olcut.provenance.primitives.DateTimeProvenancen&outputFactoryclusteringfactory-11*Corg.tribuo.clustering.ClusteringFactory$ClusteringFactoryProvenance0Q'	separator,*?com.oracle.labs.mlrg.olcut.provenance.primitives.CharProvenanceb(host-short-name
+DataSource*Acom.oracle.labs.mlrg.olcut.provenance.primitives.StringProvenancet)
+class-name!org.tribuo.data.csv.CSVDataSource*Acom.oracle.labs.mlrg.olcut.provenance.primitives.StringProvenanceµ*dataPathf/Users/gstewart/data/src/Oracle/tribuo/Clustering/Hdbscan/src/test/resources/basic-gaussians-train.csv*?com.oracle.labs.mlrg.olcut.provenance.primitives.FileProvenance{.fieldProcessorListdoublefieldprocessor-6*Icom.oracle.labs.mlrg.olcut.provenance.impl.ConfiguredObjectProvenanceImpl0{/fieldProcessorListdoublefieldprocessor-7*Icom.oracle.labs.mlrg.olcut.provenance.impl.ConfiguredObjectProvenanceImpl0{0fieldProcessorListdoublefieldprocessor-8*Icom.oracle.labs.mlrg.olcut.provenance.impl.ConfiguredObjectProvenanceImpl0|2responseProcessoremptyresponseprocessor-9*Icom.oracle.labs.mlrg.olcut.provenance.impl.ConfiguredObjectProvenanceImpl0m3weightExtractorfieldextractor-10*Ccom.oracle.labs.mlrg.olcut.provenance.impl.NullConfiguredProvenance0g4replaceNewlinesWithSpacestrue*Bcom.oracle.labs.mlrg.olcut.provenance.primitives.BooleanProvenanced6host-short-nameRowProcessor*Acom.oracle.labs.mlrg.olcut.provenance.primitives.StringProvenancex7
+class-name%org.tribuo.data.columnar.RowProcessor*Acom.oracle.labs.mlrg.olcut.provenance.primitives.StringProvenancez9
+class-name'org.tribuo.clustering.ClusteringFactory*Acom.oracle.labs.mlrg.olcut.provenance.primitives.StringProvenanceZ;	fieldNameFeature3*Acom.oracle.labs.mlrg.olcut.provenance.primitives.StringProvenance\<onlyFieldNamefalse*Bcom.oracle.labs.mlrg.olcut.provenance.primitives.BooleanProvenance]=throwOnInvalidfalse*Bcom.oracle.labs.mlrg.olcut.provenance.primitives.BooleanProvenancef>host-short-nameFieldProcessor*Acom.oracle.labs.mlrg.olcut.provenance.primitives.StringProvenance‘?
+class-name>org.tribuo.data.columnar.processors.field.DoubleFieldProcessor*Acom.oracle.labs.mlrg.olcut.provenance.primitives.StringProvenanceZA	fieldNameFeature2*Acom.oracle.labs.mlrg.olcut.provenance.primitives.StringProvenance\BonlyFieldNamefalse*Bcom.oracle.labs.mlrg.olcut.provenance.primitives.BooleanProvenance]CthrowOnInvalidfalse*Bcom.oracle.labs.mlrg.olcut.provenance.primitives.BooleanProvenancefDhost-short-nameFieldProcessor*Acom.oracle.labs.mlrg.olcut.provenance.primitives.StringProvenance‘E
+class-name>org.tribuo.data.columnar.processors.field.DoubleFieldProcessor*Acom.oracle.labs.mlrg.olcut.provenance.primitives.StringProvenanceZG	fieldNameFeature1*Acom.oracle.labs.mlrg.olcut.provenance.primitives.StringProvenance\HonlyFieldNamefalse*Bcom.oracle.labs.mlrg.olcut.provenance.primitives.BooleanProvenance]IthrowOnInvalidfalse*Bcom.oracle.labs.mlrg.olcut.provenance.primitives.BooleanProvenancefJhost-short-nameFieldProcessor*Acom.oracle.labs.mlrg.olcut.provenance.primitives.StringProvenance‘K
+class-name>org.tribuo.data.columnar.processors.field.DoubleFieldProcessor*Acom.oracle.labs.mlrg.olcut.provenance.primitives.StringProvenancenMoutputFactoryclusteringfactory-11*Corg.tribuo.clustering.ClusteringFactory$ClusteringFactoryProvenance0iNhost-short-nameResponseProcessor*Acom.oracle.labs.mlrg.olcut.provenance.primitives.StringProvenance–O
+class-nameCorg.tribuo.data.columnar.processors.response.EmptyResponseProcessor*Acom.oracle.labs.mlrg.olcut.provenance.primitives.StringProvenancezQ
+class-name'org.tribuo.data.columnar.FieldExtractor*Acom.oracle.labs.mlrg.olcut.provenance.primitives.StringProvenance5"" ","-./0"1"öorg.tribuo.ImmutableFeatureMapÓ
+8type.googleapis.com/tribuo.core.ImmutableFeatureMapProto–
+ƒorg.tribuo.RealIDInfoj
+/type.googleapis.com/tribuo.core.RealIDInfoProto7
+Feature1@value¼Q¸ÙÏ5A@Y”_ıìAÉÀaÎôw'rÜ¿iNL¯é·@
+…org.tribuo.RealIDInfol
+/type.googleapis.com/tribuo.core.RealIDInfoProto9
+Feature3@value¼Qìì6O(@Y6ÅZ§¸ Àa*»Û'Ãg@iŒÅé+;ÖÖ@
+…org.tribuo.RealIDInfol
+/type.googleapis.com/tribuo.core.RealIDInfoProto9
+Feature2@value¼Q4+tŸ4F'@Y–8Aú-{ÀaxÂ ¢i@i*¡öTÉÙ@*}-org.tribuo.clustering.ImmutableClusteringInfoL
+9type.googleapis.com/tribuo.clustering.ClusteringInfoProto
+ BîÚ²24.3.0-SNAPSHOT¼                                                                  Ä|org.tribuo.math.la.DenseVector¡|
+5type.googleapis.com/tribuo.math.impl.DenseTensorProtoç{
+¼à{ÃøÖ)OŞ?óˆ&°Sá?fƒ¨ñrÓ?f¨ú˜eÛ?> SôÏòç?r	jÒå×?Cb7Œà?¾•È‚à?Œt$ƒï[ä?øPû?ı1Õ?üo¬5Ú? $cì3¨§?8ì!BÀš´?¤ÃsgwŠ×?ÒÉH´@Ñ?lPR´ßÛ?XhõøSÛ?6BgéZGØ?äa…Ÿ£ä?ÊeÕ)â? è¸Ól±Ü?e‹ºk”è?        ·îúĞË?·@T‘ƒ˜â?ÈÇrñÉ/ä?"ìâReóè?^2vSV8Ó?Š‚–Ùã? =PWè?ğ¾È„‰˜Å?›†vëã? W!ÖÁ¡à?        jUdI	Ô?òı3— fØ?°`‚k|Ñà? ÍDSRÚ?,”ÿgŞ?´€m‹Uã?¼K«Åè¾ã?F_¤ ñŸÖ?        ì+˜2à?z&ÇÀ£Ò?ú…B»)´Ò?        :æ»ÔGšÕ?@˜	zÀ½?¾¹w~êÔ?Nd6!Ú?¶şãØ?¤~çé{óÑ?°Xu¼uÃ?üX¼^™ç?ø,°¶gÔÔ?ºì'~ôÙ?        ˆÅ¤„õNÜ?hÜ*%\õİ?má©¹#´ä?‚Áè?Š­0£+Àã?Şn/´'ã? O”W'¤³?        J6ãœìà?$ös—½ä?˜±Ş?¬p™çuî×?Poõ-±êä?        €˜»½õİâ?„N‰Zpl×?¿Ã0¯ã?z,4®Î™à?=’<¥â?–ÎšG~Ÿä?8™H{nÑ?        xÁÓû™Ú?>qØ´` ã?ÔÕ{â Oà?*Ò‘¿EĞ?ğ¾È„‰˜Å?2´Ü§ï¢İ?”kÑàÿâ?¤8ªƒŠË?        óPõ•ç?šà‹JŠ^ã?<nÊ€Í?êBN)®Ò?XhõøSÛ?JHôUµ³Ş?         ÍDSRÚ?ˆóDÜXÒÕ?ašŠSŞ?Š_Q¾ôpÓ?ğ3Òsbâ?ª‹1DQÛ?±ÎBæã?|©…Ÿ¬8×?vàM”ŠÙ?ğáoÁ¿?LM‚ç¯Ô?        ^‰ó"Ö?        ?t±Ö?ÀB¶·NÂß?"~‰}Û?®Šsv@á?¾¬~c¨åÑ?Ú’0@´×?        BÕ[½¢±â?        "ÚÃf’Ü?xôûòH*Ó?        )zC ¯—æ?´÷|Õ9TÎ?¨ŠÍGÏ°?æ¦÷°T·Ø?NN„_yá?        ’NZu^ç?¬dMBÄÔ?ì]C¨¸ãÛ?n“eÜÇê?B6¼mÈ‘Ü?hñ\SSGĞ?oóè%â?^‰ó"Ö?ºnŞ`Å?ìe›l’à?xî+/À«Ê?E&q…Àëã?`ì±¸šÖ?¿åv¬Û?ƒâK«`åâ?œzÑïî×?Ì-Ä,Ù?¦øf×†Ş?Ğ¬:oèĞ?ºÀ^u©Ú?”åKcAfà?º“]ËPÊÚ?Ê…Óæá?¢ÇÃ±Sğã?–©‹ bÿ×?ekEh-è?!0¾­—på?|9èEhà?Œù_xWÍ?BPó _Óã?F–CB¯?Ş,µÂÜ?lk–ŞÒ?¢Ûƒ¶ˆuÑ?ºa–êYp×?SÒ~´œÒ?Ät<ç?äÀ~pÈ?.ç‰ü"÷Õ?|ìcñ¡iÊ?ÀŞzBÆ„Œ?                        ¨ŠÍGÏ°?Á÷3ÚnÜ?şa”çCjÜ?cº@Ø?¯ï¶yáææ?        (×,Š)Ò?Ü^z÷Ó?Øäã?‚Ò?÷W¯Y<¤á?L÷§+Ô?|QÁ_Ü?|Ø$£üTâ?>		oß?        :÷ú¡ÎÜ?†WĞí¿­Ú?D:á^¨×?ÇT˜ÊÑ?Mu¨µè? ÛTİ?Æ0­Ó­sÜ?˜–Ğ_ò×?MßP,á?¢Ñ•o Gè?.¿¥E`ÑÒ?˜®ií…Ú?Hæè›Xç?jØz‰Hâ?Dé/äĞ?ä?ø”*Àüâ?)“Ü,Îã?‘k?gÛä?¾½§¼ÿ_á?–VÛÏEÙ?@"¢,ÇæÔ?ƒ¿)”Úµà?&ÄvÒşà?        ¢à—0İ?©ıx#å?|zxÍêØ?öW¦¡4Õæ?        ĞÁƒü„ß?¨?FSUÔ?ç„<?ıâ?\üxÊı×?i`çvä?°®C£WÙ?€P½Ô¼€?9Ÿb-'Ã?ü†¶sÕ?ğİ`ØÙ?àeÅ.—’¨?v#¢J$Ü?ôvOÔVã?ŠA—"Ù?zıÀØ³Ğ?¤8ªƒŠË?n:ƒ²,•ã?î|ÙØŞ?Øü¶X«á?ô¿Uéƒê?<Y˜òà?¨
+uÏZà?9 ø8€á?^‰ó"Ö?"úş<á?ŒÉÁè?TB³Î?âE;uˆQÜ?"xÅzóáæ?–6«™ôç?        ìd‰Ş?ìü§LàÊç?ìİÂ…\*Ó? ù2¯ëUã?öÑ­‹İ?°Xu¼uÃ?†‘dEzà?Ä>ÂÆLä?Œ€†. Ù?ç=4lë´é?z&ÇÀ£Ò?j9è:bß?Àıfç
+dç?Öh4!+Ş?¾Ï…áöÓ?6ğå	ÀoÑ?x´‰|+Ó?h!ï¢õä?X» «NÙ?bdñışIÚ?„ØßÒÂ8Ñ?=R^eÓ?şìÕFÉÛ?/¶^ˆ¾à?’s@F^æ?2´LtÏâ?\bŒÓŞ?%û6ÕŸä?xbØüõBÍ?aj½(6á?,µp¯,Í?È‹E“Fß? NÙûñÜ?L:Z`ƒà?ºÔˆåmÑä?W0ß¨jræ?6†¡IRÛ?g_ÂDá?V÷‘Ş?¶Ô?b0Õ?GİFAÔ?MW,u§Oã?v´Ş•=ƒÙ?        ÷‚9è«ä?újªmÃÙ?W¯ZU‹Àã?à?~rÕÉ?â†3?ÿZÖ?˜ÔNÚc»ä?^‰ó"Ö?À-Â Ö?°Ïù!AÌ?×ò¥]±ã?¹	k Xã?÷À‚¦á?èt1‚¿æ?,k¶|¸óÛ?úîæÿ6ƒÜ?ö·Sş17æ?hñ-›(ßÕ?TşöUˆå?ô*¸ÆÕ?¤·2°áÚ?$ë9’*B×?¤ñ»™×?0fáeßªÛ?â0İ{U!Ò?8àT0Ó?ÈNå3™_Î?¤8ªƒŠË?4Øw°àZÉ?’xXÒ·‰Õ?ğ98îÍ?Ú/¾7EÙ?ºLX£–å?nÛVoˆá?ÀVİÛİıÒ?¤4ÆE±àÕ?º|ğ®E“Ø?²B”•ş…Ö?Œù_xWÍ?0ª9}swé?ŠÄîß?ŒYŒİvØ?g2Ÿ[‘ïà?HŞ›®&5ß?¸5¸ìKä?Š@Vd¯ŸÓ?øäXùË?Fânnß?‘øP‘7â?        rÌûöè?ÀĞZ]å1×?°÷²d½iÔ?6eî)Mè?»nV¡9â?`ì±¸šÖ?U‘Ã¢ÓÙ?ÛğÈEÒá?)qâb»è?ŒÁ†{µíÑ?É!/ ß?hñ-›(ßÕ?AŒ=Š°æ? „:Zé?p™ÔŞ;Í?b¤o†ı`Ø?Ö£™rîŞ?¬3w‚½İ? D®À§ˆÖ?        º|ğ®E“Ø?./ùxE<×?˜–Ğ_ò×?r^ŒEà?p¨}å7Å?r(xÌÛ?¢Á?'ÊÔ?‹³=7à?ğÇ¤üòõ¨?€‘†&å?$ooK‡›Ú?ğ¤$IıÚ?õrÏôTá?Š3bÓ?À6@ËKOÀ?ñ·Ï—¡â?6gÁï´`ã?hÛ‹|â?R˜IÏß?”SDt«À?ô*¸ÆÕ?€Zvêw²Ô?‚Rß×óâ?Òñ,ÒsÙ?$ù¥a6à?êlãgGá?´æ¾Zr}Ë?ìüBl’Ö?`	e?Nxp2Ó?        2‡‡%¡Ş?Ğ›˜Ørå?n°ƒãL×?œ¼!¾à?’7şÇD&Ú?tpå|5Ü?         AhXVà?Z€X]€‡Û?ö)~‘ZñÔ?HYoh†Õ?€l©$ fœ?·ºëÀUá?€úFË½Š­?D( NÄÎ?        8T_Óİ?„Àøçİ:Ñ?Ğµ¯¹sÔ?”÷¿­¤ÊØ?ÚZ»Ó?{öúm³qá?jÖôÒ.à?”_oµŞ?è‡æM´â?        "ß«ŠY‡Ñ?.@­Û?Ê”Õ¹ùÓ?¶gOä4Pä?HÏøJ¶Ç?s‹J!¦Íè?zıÀØ³Ğ?Ü/\O°òÚ?ÈíÑµ5á?R–!o0ß?s¡#Ó®éå?pGÿ|ípÕ?	nÒ¯¬Öã?˜IÆ£ë¯Ö?ˆz`šgã?|£N]İæ?ÕªX\{×?m‚(2ÇÓ?ªq6fmËØ?¸:{MŒé?yâùñİ?ÈóÓ¹‹â?ƒúZîŸšé?ú¦±úĞ+Ú?ìéGğÍ;ä?                –ÈÙ¤¬Ø? ©/·y?°Xu¼uÃ?ÆúQğ*ç?ğ¾È„‰˜Å?Z‰;Ü?¬‰uÚ“ÜŞ?Ğák“ºİÒ?Ôr‰ºÖ?¤lôÉüØ?"Zå 8ä?Pã”¼İ?È,ºS£¹¶?J/©Éõ5à?NtÚHÛŞ?        €8.ê‘»é?b@Å±Pß?d80\Ûã?¤o5¨°ß?š¬oH8jê?        tå K×ï×?düs?»¢Ì?sÎğ‘?ïè?z¦W.ä?²˜‹´lÄÜ?        €Ú<ÖÖTÜ?à½E‡¥Ø?x1¶Ù½Á?ÏK=)×ß?ÿ“ÿ]äZè?        >¡-áÿÄß?SmÎ÷±Ÿã?À»_º\â?øØÍší×?j2Êhñ™à?öÍª*ùã?\÷ğviİ?
+÷UÚ(Ğ?”—İq]ã?Æ¾ĞÅ…ä? ™Óg“ØÚ?        Y‚ Ë*á?¤›BÃ×?~6ö—}§ã?        Ø9'TøåÓ?°À¼;S.Ä?7¢-ÌÔ?z×ö>¦~Ö?pá%i¢È?l^CÀŒ÷×?ÖêûƒLX×?Hz•²?¦ÕCÙ`Qâ? ½örbtå?fch¹Ú?äá’’%‘à?vœö=êÖ?èÚóóµ?æTùéÈÑ?b^Ë´Õ?®îbá„Ú?Ö0M2Ñ_ä?        QÕv7£Và?        ö1?’úá?Ÿö0À?Ìj«¿£¾ä?&¯lDÏØ?ãá6_8á?r	jÒå×?*Åj‰Ğ?ª½@<¿xÚ?<à¼—ŠáÎ?TAÇSzÑ?(”†.Uá?J ´Héšß?PUÔBGÈ?VË6P:æ?F.‚$ÅÓ?x²f'7†å?8™IéªÄÙ?ºJ_«Ö?şíÚ¶BäÖ?'øÇÅØæ?‹¨.­rå?Ÿ–oÉrå?‚µçäçå?¾e¸Dß?Ú’0@´×?ÃxÏ	oç?        ¼XØŞ¾;Î?¬«*:‹åŞ?        Â…9À$VÓ?ôÉOúUøØ?¼KÔ8©è?`NÅìÅÏ?¤lıT]¬Ù?TFª´Î?        E…!Ù?J@„SÜ?        Š3bÓ?Væ¼áÒ?‚ç¿Ùcß?‚Ù@¿ƒ¿Ø?€øÌ .ä?ôò^½tøÄ? ê±§ŞÜª?Ö¦ğÇ?        n÷¼ãh‡ä?ü•*şnaÊ?ÖŒp£ñ†à?Òb°ğ.!ê?Ä¡¡‰åÖ?x%ÆèCâ?¬ˆ0á^Ù?ğËø<¯ñŞ?        °Fd”cÚ?#{jØÒ‰à?6J	J{Ä?]³8 æ?DqµÀ“=Ô?F<O#Æâ?–r`bşŞ?tè'OÂ?ÖZ#e§Dß?”Rè:ÁµÆ?T3ØË?TmŒšE0ç?¼SÒ×ÏZØ?x)ƒ÷´Ú?T¹:ªÛØ?÷q¸Ä¹êæ?öØ£ôëÙ?        @Á8<lİÙ?Ÿö0À?ÊAó…İ?'b>R&Œá?D¾hÑ?:0IÓá?Ê…UG:İ?U‘Ã¢ÓÙ?ç):GÌæ?,ëkÇ‹Ø?&À4ş-à?@Áz“¡×?Ü±Õ _•Ü? \™Cöí¢?FP‘8‹Ó?yjµ5«ã?<~)³1Î?z#»Š¤ÜÖ?¨Y¢ûZ­¿?aRhĞ?Ü±Õ _•Ü?…XŞ)¤â?v&/Tá?Èïb$ÂÒ?<r_‰ùÙ?”÷ŒœÜ’å?ñÉ¡ÖRÏ?À·[>ç?šA£ÖšîÜ?˜IÆ£ë¯Ö?êK$±âã?óT×A"Ú?ö^^šıÒ?Š?}1Õ©á?°’ce¢Ù?¤ƒÂ³Ü?À`9é?ÉË
+™ûÚ?ø"K{ã?0=õÙ•Ü?ÌÇÅ?™)Ï?Ş¿.òOÑ?Àmº¾Ê>á?ráWmá?:0IÓá?´ŞwFeê?”Kúª–à?Ò[Gğè?ğ!}F¿4©?¦]€pWº×?úD6ïõØ?rK	0ÛØ?I›ÈÖé‡á?4¤²ÀØ?nÛL­úTà?è¢)SĞ¨Ù?bÒµóUİ?`I?yÒ±å?pR/3İÜá?:	ßZqÅÔ?¤7F0À‘Ü?.Ø]~g@Ö?        vn	ÎŒâ?z§İE=œß?ÔE ¡wGÔ?Êú_†Ø?Z¾¦–·Ö?`}"ÄVr¦?„ØßÒÂ8Ñ?à½E‡¥Ø?        ³7øÂw@à?D¹1ŞßŞ?Ö7½ÃuÛ?HÓ©PÈCÜ?$Î>E“Ù?.q!p¯wå?r~Ü¦>4Ó?”}h‹ÀZÈ? qg€øÓ?¸Ÿ^ò^Ñ?:6¸à?¢ÇÃ±Sğã?nWóÑ¸>Ù?Œ<‡/Ìæ?&›‰£ZBß?°Xu¼uÃ?‚[a‚*¸Ü?        ˆ ¶¶™œå?,YOG©3Ó?JÌz¿òß?8òq/SŠá?Èïb$ÂÒ?,»Gœ‰UÒ?ŒŸu'dÛç?ÅOmfuÖ?¤
+kåQË?’—AGá?\j}wDÕÌ?Ÿb°ê ‡å?´mY3Oå?âí1~Mç?XŞ·œlçİ?á¹t®Šæ?r%²ÃnJÕ?ÛÖh~Ö?†[2DÜ?kÆ©($ßæ?º|ğ®E“Ø?r{	u»õÖ?Ü±Õ _•Ü?`Vù$¶ß?ÆQãÿŞÌŞ?¦IÌâËØ?À­cxˆê¾?èß­ ÚˆØ?\QÕ`—Ù?èu€F!é?í¸º/œâ?f5?&i9ã?                ”SDt«À?L:¿öPGä?ŒÇáÛğØ?s/»2xÕ?„q_*EçÑ?ó2 ÀÓá?FåŸtÕ? àº‰ŒšĞ?ÇmĞ}â?ÀY#KÿĞ?îK(iK‡ß?„‘5
+Ë?PıÆ¼Øä?Âƒ*dí‘ã?                        ùõóğI.à?®U)ˆ8Ô?º|ğ®E“Ø?¼Ü[ŒË?Ü“{*²æ?^C'ÉFáÜ?‚Nc1uÚ?­"U¤á?B’ŒÉİ?(’–×Ò’Ç?        Ü”Pı7Ş?XùêÙÌƒá?ì+˜2à?ğ¾È„‰˜Å?XáÉ×Æ7á?i¨yFÛ?â­æãCå?øº45Ù‹Ï?.ƒŒGY:×?¤8ªƒŠË?ôÚd´õÒ?XC¦ŠÌŞ?2¤÷©:,Û?^r¥gğØ?27ëèÔ?Væ¼áÒ?¢„NS*İ?ĞnmĞ¿Ü?:‘aÉUÚ?š¶åÏ¡Õ?        "ê½ª¥ã?`÷„~ø–İ?8òq/SŠá?ğ;´Ñm¥å?@ƒA½¸?=˜ËpH'ç?@O*>Ë?’ºçBüİ?N1€‘ÖõÓ?ğbgAÙÜË?j(öB8é?PzE9ãnâ?ÜTâÉuØ?ªá»y¡ä?H¹3‡¨Ğ?ä½6ç1¾ä?1G}¢êİ?8ì!BÀš´?>À®JÖÖ?ú,Ì§aÙ?
+¹z*Ò?¢«ƒgâÖ?|šâB±Ü?>ÅÒşú>×?Äòx¯ŸÖ?ÊP@°Û?ô üTæÜ?˜++êŞ?4ˆq/Hè?q§¦‘gâ?³\‹,Ş?3d†-`â?âp [áÙ?¾¼˜Dõ½Ú?        úu¼5µN×?i)JÃà‹â?S|×ŒVæ?€úFË½Š­?@j‘ËÏ?vesúåİ?Â†'	–®ä?ğİü÷Á?€ëÍ˜bÙ?Ü±Õ _•Ü?ÿ¸!©†á?fiµ*+ç?.q†™°á?"ìâReóè?        :§gº3â?o4_ã?ĞnmĞ¿Ü?œ@n·Ä‹ã?P-¶˜Mß?ìŞ­Àá¯ã?N1€‘ÖõÓ?rŒbnøß?Øô)êòŸÜ?ŞTèÙÂ	Ú?        †G‚ß? ¦çÇpYâ?        d¤ŞóB¬à?ôy­Jğà?Ô>bgîá?Nîõ4\æ?˜º‡8…B×?F€üflZÛ?†–("ÜÖ?ZcI×â
+Ğ?~m¨>cŞ?^‰ó"Ö?ğ!b¶ç?ÄÍµ2ß?œª©‰»Ó?ö·Sş17æ?8¡üÁÚ‡á?zåòEØ?¸·Gö(ûÚ?êBN)®Ò?êliûk×á?¼Ú’°ìÅ?        X"ex”Ş?æÔ9Zæ?¸ºx¼(€à?†¢@”¨Ó?üïÌ@‚/Ù?.©·,5uå?Ğ®Ğ?‰Ş?
+‰Ä}Ó?ğ/{€^·?•fõ¦fä?àˆ¢¬À§Ê?€ùd
+D„?,YOG©3Ó?t’<é±Éç?
+hÙ3dàÖ?<²{ùaÓ?¥øv~Ó?2áI|ëŞ?fVP‘Cã?¢8:
+±§Ô?|VÕÉà?bÎ—ª„Û?        Rú¼R|å?Ï:&‚Wé?        |zxÍêØ?pÛ»½ô%Ï?€é­è7å§?TFª´Î?Bğ‹ñ‚ã?°åº+”gã? <Ö…	H®?ğ± pUØŞ?¨S°I1,Û?lÏÊŞeå?n¿1{F×?ÕÈSC+Bá?`.k˜ˆ3ã?        4÷)JÛß?à>sc–EÔ?–><bÚ?L×OĞ†1Ú?Î„	B×?ó\W]iÑç?ªóe¤°è×?D»pI­É?l0ÑıÙ?˜˜-MãåÍ?t5?bÚÑ?`vâ¥.é×?ö76d+Gê?JaŒ)wá?—Õw_ß?P©>°–Éß?Û±¢×µäá?7÷¸zİ?ìE§v¢sã?@ƒA½¸?ìî-õÏ’É?ÆO»9à?Tg¡µÍ?p;f$â?„ák£ÇoÔ? æî`Ó•?8u8§cÛ?šÊÓPXêé?(ºøXtôá?€ïsÚ×Ê?ÕqEmâ?²§2@I2Û?        pš‰ûr›Ô? z»S»¦?`¯·Æ#¶Í?@×UƒÓ˜ç?|¯5	'à?´rùJã?üRÇşŠ[İ?=b
+HT¯å?Xå Øä?b4•füÑ?ÜûÁ˜nÌ?Rt¨ ×?0Mã†Ïtß?JuÀ§U-×?æmú»Õâ?ÔÆ|(ÃÀ?!¹+È]â? (º_«Y»?¨K{!uŞ?bí€¥qÙ?ŠÙÌ‹Ò?°ÁPK/Ú¹?ŠŸÅ™õØ?v•ÅcØ?†U¶9¶Ó?,OÀgİôÖ? qİ0×jÔ?R ñF6Fâ?ÁÎi«•Û?@)ì7“×?`ú5;¿í©? à^z˜Ô?xas@îã?t%şàc‘Õ?`J¥ŒUfÃ?z}¶–øÜ?Ô`¸(øß?àÀn²2İ?êõ,ê‘áå?2O­à9qà?Nñ¤÷ƒÜ?        n™(°§à?ä_æ@‚È?ÂX;yÂ÷Ú?nWóÑ¸>Ù?D? Ş?.°c»Ñè?R®vTŸÔ?²Ê?_‘YĞ?ĞÍ	ß½º?)9‚Ã<â?ô*¸ÆÕ?<mÜrİØ?`d¯·œ8–?ÄU¢L¼Õ?àCód…Âß?°Ç0fZœà?0#¦"nÙ?&Œ¬óâ#Ó? Øíd Ú?8Òwè?úàVYxÖ?>c-›â?Î¾­a­Öå?€çúÙ?Ü:ÿ¢4`á?        æóèg}à? z»S»¦?x:ŞiÛ?€c¿Ë‰Ô?HÒ&×/îÕ?º|ğ®E“Ø?@	;Q"óØ?Zkš½x×?        <->½PdŞ?ğ#—¿Ñ?ÊÒÎñ×?úaŞ+¥Eã?Zr±ıà?        HÏøJ¶Ç?ÊºÿÜñK×?’]CŒ‘›á?`iEtÎ³?©—Ô?Š@Vd¯ŸÓ?Ö=é	§`â?Q	£Vä?ğ{BV7nË?ÍM'¨Ñ
+à?†Lt˜’Éç?µ?j-ãä?Ô‹5éÊ?7°=•©ã?bz½‰£ã?TCB]ÊüÖ?¬ìğ2Ó‡İ?SmÎ÷±Ÿã?šªôòAEÛ?Œ$ÉHùŞ?€C³iÕ?R‘;÷‰Ô?ÀQt*§â?(ı÷•Ø?Šà_‚ã?¢èİZßÜÒ?Öä˜Ø`Ñ?ÈRØ†ÒtŞ?ğ¨’à`×?        Š]-Ğauá?ãíQ»¾Şç?WúœĞ+è?N›òò›æ?Ú6ö:ıß?|[*ZR×?œŞ^ë á?š^Nò]Ö?àÀn²2İ?b7KÕNÚ?î&d‚Q„İ?+d{køã?ñ+-#A°à?(×,Š)Ò?‚1•å,ğ×?Ìè
+fÄóÓ?„nv%É¬×?ô¡±h”à?        <g«áæÏ?0±‹Rà?ø}W`×?z&ÇÀ£Ò?.ö¢Ü?ÏÁƒ)ä?è0E¨¶»?P÷ÿ<Ö?        
+Ş¨¢ä?øäXùË?f*÷iÁŞ?p6©Dy¡ã?ˆµ"Àùá?|¿ZÆè¢ß?Ö)>½á?.ç‰ü"÷Õ?‚nK¸$TÔ?¸ì~[äÒ?ìÍCıàïİ?üd´P´Ù?p†j´9­ã?|ÇŠ
+É?Ş ©Kå¦â?Èïb$ÂÒ?àè8éßĞ?8ÙR¦Ğ?lÆ=ÉÒÜ?6¸ZôÉÜÑ?ù§xÕÖ?Ÿö0À?Ú6^ÕÆºÔ?œ'—{må?ÏK=)×ß?zıÀØ³Ğ?ÆTå™ûâ?Z¾>víŠß?.Öi¸™-Õ?"d\šòà?œ£Éé<Ø?"@ô”úTæ?ÔîEõ>ŠÛ?        ¢Ğä"pèÚ?&iÀ0ìå?@Áèê\¾Õ?ı$üŞ?ì¨ÆœÆİ?SÒ~´œÒ?ª¼¹LøÖ?¤_Ûu#ÜÛ?¶Òz‹Ú?$ßC;[xá?Ûşr¤Šˆé?æ’¼Ÿ]”á?dâãğQrÜ?g[à •è?<eOéÖÆ?Å©t•á¨á?ºòÅ0£×Õ?(Ú‚êüâ?º|ğ®E“Ø?rtİ5Ğ?2©¥eæ?jwºƒB~Ù?D|İ‘jã?ú ›ÛUöà?µ©ÆÔ?x´‰|+Ó? ¦©Æµİ?ÖÀäXˆÚ?›ô{âÒã?’Ôtáå?ö¾ì†SÛ?œŞ^ë á?˜º5_}µ?Fºˆ:æÓ?ÈNå3™_Î?äc9Í?4ÿãNáŞ?ä÷/÷z€Ş?4÷)JÛß?æø}‡hã?„ák£ÇoÔ?@{Wœfµ?¼Çu¦yÜ?´Í88ßƒÔ?æ;"TSÓ?¼§^±eÆÖ? %‚É?ÜÖş­Šà?¾œV½ëˆ×?³Ã¦vTà?³÷‰I<ê?:üG¸‰~Ş?¸_±ŠØ?”¹¢İáÜ?„ì£4MWÕ?@?GíAQ½?`ö¨ù´íÖ?ğbgAÙÜË?dö\­xà?ŠàØ9cÙÕ?ŒøfÿdrÕ?        ²:}Ú{VÓ?²(‡+9Ñ?ØŞKPCÙ»?4-‘,×?X	ş…iÙ?        À®7Ú?<ëÙ?pŒ÷†Ù?€úFË½Š­?üWÁÄëŞ?ã)`¿íè?\ÏY…eÖÏ?22ºË3Ş?^$LĞØÔ?+±€ƒ/ß?2p}¾€Õ?òÿGÀ¡aĞ?¶¿©³‹İ? àº‰ŒšĞ?ˆ¬#ÈN¿Ü?        nö$¿{Ø?æWDmÁƒß?Ğôaé¸Û?¼­Û‹²à?|©“¦Íå?ò p²Õ?,,ßT¦â?Ş ©Kå¦â?1•R¯?à\; qCÚ?Å,¶ãà?âa[môÔ?Æïk³4fÜ?ã†ÜÜfá?À0ÿ×VÑŞ?Ü±Õ _•Ü?&—ÔoCÖ?dr:c×?Ş^	à`]Û?€¨ÉÎ¬“Ú?fŞ§3`øâ?¦·«;Ú?ôiF¿ıÙ?D:á^¨×?\ñ5‡<Õ?¸·Gö(ûÚ?8u8§cÛ?µ˜·±á?ÒÑÏe¥á?\²
+ÊÛóŞ?¶˜áí»ZØ?PäzŒqIÖ?hR¡ÜåiÁ?ØåoĞ+]Û?z‚›ŒVŞ?^„;#?â?êÌ†ÑEà?Ìç‰Õ7Ù?^‰ó"Ö?/¶^ˆ¾à?ÎòTŞİ?        àl¸=GÒ?ñ0åS“á?nè"ˆÓÌÚ?z&ÇÀ£Ò?4ZşÍWbÜ?Ê‹ÔV–ñÛ?        «Ov/1à?@˜	zÀ½?ÀY#KÿĞ?B³t&Yå?Y’ŠŞá?2x¦±„¦à?@tYzl”?”v¥(Õä?„ák£ÇoÔ?        J¯ÓşÚ?Î­W1%Ù?ì»£²j¼Ô?‰È@7ê?QÁóğÜ?ğ`)äâWİ?ğfõB›FÑ?üòÃŞØ?†ãyõ¤á?"§Ï}ü¸à?š9~âÚ?”XèŸ?½Ò?¨øˆfÉúÚ?!R>¼*äè?        ôò^½tøÄ?F?eâÍ[á?ZÃ…_
+Ø?ÄıS‘AÈ?l¥/r%‰È?r[QÎyBİ?ZÙM]æã?İÌev;Û?h£?_)Ó?Fºˆ:æÓ?h­lkÉæ?êÕÃ —®Ş?        *½ğ€ç¤Ô?dšİá‹Ò?JĞîåÉ@Ò?®p)g¨4ã?\Åµ¦}´Ş?        şìÕFÉÛ?ş96¤ä?Ìç‰Õ7Ù?\üq?7”ä?ğ¼Å¨°¸?Ê•±j[Ğ?Ãq¤ÚøZã?@ BÒÆÚ?ÄX?Öå?        ÔÆ©$™È?N1KZä[Ó?t°]2ïİ?f¶pø„à?ô*¸ÆÕ?¼SÒ×ÏZØ?<²{ùaÓ?V|ş-gzÙ?–#­½áá?"¢Ø±Yã? ÉÉ/ËBá?NY“DôîØ?@ä3‰Ş?Ş‰ sVÒ?-N#Ikã?Ğ_F0xé?F–CB¯?„®W{Ş?@ÅßD§?ïµ	’â?¶ÜäP„Û?š#X;ú?Û?Ü†´
+rİ?øWˆûì6Ú?b[4Ìß?%cñ-êÕà?ªå†·Læ?¸û‚¿z×?òÜÌî¡İ?õ¾òƒ5ã?äpw±…›Â?=™º[â?"ĞNÊXiå? ±éAÀ?Ğiuğ"Ü?dö\­xà?        €Ó&†NÏ?&?ÿÂñ×?¸“#$×?,zNü=Áä?ôú„,F¶Ï?\¥kôŠ\Ñ?.ŒŠ/Úá?º†d¾Ù?„•ØŸ§İÖ?>­–uEØ?&ÜŸÇÚ?tNÎD¸Ú?T“6S_(É?ÖX¦?>{Û?,YOG©3Ó?º|ğ®E“Ø?Ö~K2Duß?^ˆZ²`Û?à¬~(»2¿?ö“#¡«ß?        â…B…æ?ˆTõÅÙÕ?úòô/¢Õ?¤¹L!`×?˜×Ô.Ü?`ú5;¿í©?Ò‹g3ı×?‚[a‚*¸Ü?R®vTŸÔ?®%G#GÛ?ºhQ9ÓØ?yg4jPüå?nèŒä˜«Ğ?`z‚  QÖ?        l¥/r%‰È?4@ë/ÍĞ?Ì'CÉ8Så?Èïb$ÂÒ?        ü¶ŠâÒÏ?è7Ä(nÑÓ?Ê^C9‰Ø?êliûk×á?¢‘ºÉê?´>Ä-±Ù?¶e2†øä?>ŸİHMÓ?¼­Û‹²à?ØŞKPCÙ»?®"ìü2OÓ?~˜¼]:İ?`š©¯±3Õ?Ş¦ªuĞ"Ô?R®vTŸÔ? †Ô
+—vÜ?ˆú!Şüã?N&_âRÌÙ?ĞoYºUcÜ?˜›Áªâúæ?ŞĞ’Ç±Û?@˜	zÀ½?ÚÛ9ƒQ«à?òì .$uà?8ÁÙ0À Ú?ì°¢=«3Ê?r[QÎyBİ?„‘5
+Ë?~/ù./fØ?ğ>(™]£¥?\ŒJùö³Ù?¾æR„3Ñ?Ş§œ¨ÑÜ?øl‰(‰¼?şzaÛ?Z’^úÆé?PÚìr8È?¹?u&dà?HYoh†Õ?m:AS¾Ñç?hıÀÿ¥å?<õèÅ ÆÄ?ÄÃó^œ%Û?¶Ú·¹‘<İ?Ì$N¼ô
+Ö?Úàß¸iÜ?*f_àŒâ?<­NW;§Ó?úÇáÌØ?`§x Ö×?ôò^½tøÄ?Èïb$ÂÒ?P8$Æ0LÇ? ÏTRw*Ü?B-ï7°¶ê?`fÈ£ö²Í?Ô™ûøÄİ?0C¹ jØ?Œ!e¯“ÏÁ?Ä‰I²šÖ?”}h‹ÀZÈ?ş¥ŞxÖ?®æ…Xß?°’€£â?€’‚-v}Â?şÓ´‡[Ò?NBRàÅ…Ô?ğŠS´ä?®)/íğ÷×?ÄÀ­	£
+Ê?”ÈT|•bÒ?²eaÎnÔ?z±GoÕ?8FğÆ-İ?ÎœÜØù'Ù?         Ó! ¢Ğç? ·Q®è•”?hÓğ^„1á?%Êğˆæ?Š3bÓ?¸"œ®U™Ê?8¹Şûá?¤ƒe]$Ø?¾§ˆ&
+6ê?2‰ÊJ
+à?ÄQ§a¶_Õ?ÀY#KÿĞ?ä¥D2á?U3YÈËê?4@kX?[à?·¶ïÄ³Ş?ÿ¢]İ?ÔªiXß? O”W'¤³?C’ñL:á?Šù°æAİå?        î†@üÆâ?øäXùË?’¢‡n¶Û?:Üö¡FXè?’,¸0Ğ>à?àc©¢¹Ô™?¹bHÔˆXé?ú,Ì§aÙ?q™6íà?òt·ÜÜ?hä]tá?"ß ºÇÒ?                        FÅ¾p©<ã?ô×…'N¸ä?PÖÆ‹vÔà?ÀY#KÿĞ?OiV›¯à?\ŒJùö³Ù?A·‹ş¾áâ?HYoh†Õ?ô»CÕè?œ7_ÏEÓ?N1€‘ÖõÓ?j2Êhñ™à?Œ!e¯“ÏÁ?ºDTDÙfÔ?¾û>9PÚ?Lù( óŞ?6—u§²â?nWóÑ¸>Ù?8ì!BÀš´?èÙ¢’kÕ?DSÄ.}ã?Êà6kÈã?”SDt«À?)Œ=EZÎë?¸–„„Ó?¨rË?úõdà¿ªÔ?yYÆáß?¤lıT]¬Ù?ÚNåŞÿJÜ?        €…a@Ûà?"N/stà?•¢aFÛ?L“Şó«TÑ?Ü±Õ _•Ü?pÙ>¯”Ò?âp [áÙ?"ªFÂ6ıÔ?&v˜8üà?o#É©Ğ?zVh(XÙ?<ó|„ä?ˆyUÒÓ?ºRÕm§Ñß?        HYoh†Õ? Náe/¨Ù?P²šÖÀÛ´?Ôyİ³Ø?                `ì±¸šÖ?Ä.Âhº.ç?E$;xè?€@(÷:YË?VÊÊgÀä?H…Ï?Ì*Â?ß÷gÇ¼8å?Ø'oNnNá?2'›ˆÓØ?ÄÒ¥*äâ?ò´Q"ùåÜ?        P"Èñ5«?¼–NÅgÚ?ŒJànûMá?âV›²šLá?€úFË½Š­?SÒ~´œÒ?€—
+÷¬”?ò@¹Å\®Ú?³\‹,Ş?îi7¾^@å?K•âç?mú‚×ç?=œE`à?.ç‰ü"÷Õ? €eõ ^Ğ?à;wJÁc×?à ¿ğ62â?ÚÁíKÒ?xZâ<îfÚ?Âãİ›Ø?bÃ,QÄß?&èÈÖ2\Ş?ø•ø(zä?Ÿö0À?>O)ˆ«^Ñ?Rr¡XáUŞ?Ğ‘Id›Ğ?.ç‰ü"÷Õ?Ò£˜«œ`å?RÔWNÇß?IF…÷²Åæ?„ák£ÇoÔ?¤´m½ÁuÙ?y(zaâ?¾YKÛpß?ú1•CÆœŞ?†$A•Xà?ì¸9@ÓÙ?ê¥Ô‘là?BÛopƒÖ?@˜	zÀ½?õÏû´ö²à?~˜¼]:İ?Nê›DÖ?€çM˜BÉ?±a°¥æ?œâïs‰RØ?éXX÷Û?ÊæßÕRÓ?$M½§ŸÙ?rŞ“+Ù?,SZÿ¡Ù?ğ#—¿Ñ?        8Sn)Ş£²?HVö%«Iä?^»?H”Ù?ª¸ÃE´vã?&fœóæİ?`­$EÃ¬Ú?CÓvöä?¼¤ ]Ã2ä?
+ü”\ñ˜Ó?ÒÑÏe¥á?ŒÇáÛğØ?ÄJ˜÷vYß?¨~äuaè?ò~4€ß?        ä•g”©Ìß?£<`†‰qè?@¸“üRã?À¹Úshëæ?\ü­‡rå×?œ
+†3aÃÙ?        rÈ+îQ¸Ø?´÷|Õ9TÎ?²eaÎnÔ?h¼Ğ0éDŞ?®MV} ËÕ?†»ø²r#Ø? BlDâ×?fê½DÀ?        l.¡Ayä?ª+­Ú88Ò?àYÌæ
+Ğ?\Lcª¤@Ñ?z¦iüXˆØ?ÜìŸNç?Pßnˆ†¡?Lk“˜s.Ï?^*f
+DÒÚ?¿şïĞ¿—â?®é H¸Éã?Î­W1%Ù?ˆŒıïfÏ?Ôr…CTøÒ?        ïê’ùHã?ú,Ì§aÙ?(E[¢Ö?ÄÀ­	£
+Ê?¶Ú<·å?’.Ü³oå?·ØsíğYá?¢INm”ŸÕ?Ñœ.]×?~ 1ÛøšÕ?ÈNå3™_Î?ú,Ì§aÙ?Ô²ÉiZÔ?d_=eõ[è? %®ãYÖå?jåøÃ×?rÔlÙ]à?¦~Ò˜vÑ?4X–ÁõÛ?Ø¬[Ç§İÓ?        ÌßwiµÀ?„YlSääÓ?XãÖ3”ç?8uij¯øŞ?œxÓË¹ã?âòÖåöŞ?ËëÅ¾Ôİá?Øú„Fô¹æ? #í$Ö?çc;’ã?Œ^-›¬Ô? mëŒ§m?H}:zÜ@Ò?¶ ç­äªÔ?²11•ÁÛ?z›Kic[İ?Ü]K N¤ß?°I[+Ë{ã?tQóôËÉ?ë„™Jëbå?ZLCQzöÜ?        xZÂ|‹“Ğ?$ËŸ"Ì8æ?T¢Æ&ÖÛ?üO¶Jé?tX(WÎ?        2¦˜İÔ?¤óÿ¡…×?Äù¾2Õ|Ù?&fœóæİ?O¼–'wÊá?Æ–²3ÈŸæ?…wUšgÑ?x€„’ö½á?"ß ºÇÒ?x–­âAã×?Suİ_ÎRç?QóSÙ?Nøå»ñ,Ñ?d„ßR¹ä?Î&û…=\Û?±ÎBæã?ÜØé´©LŞ?tº¦kİ?.ç‰ü"÷Õ?Ô-…’4æ?ç>X‰âïã? {š[‡£à? Ü~9e?H…Ï?Ì*Â?z°]¶¢°Ó?_SÄCDèç?¸1DCnç?šBêÉ•Ëá?¢sZ1	á?\k¹!iÄ?,‡!æd´Ş?îZa	¯)Ó?†–("ÜÖ?Æ	‘9è?Xâ$×meÙ?˜˜-MãåÍ?¦GCBG×?Àt°Aëİ?6 ‡»vmà?dg†Yqà?Dg°ùæŞ?V £j?Ò?Ÿö0À?æSd?õä?ôò^½tøÄ?ìr‹üøÙ?«}°ââ?jC^èR´Ş?Š3bÓ?`%“nÆˆ˜?$û–åæŞ?<{•lÂXÑ?äJ	é«Ø?        >:«-j×? U/'$5×?&‘¹8À¾ä?2¡æ×á?B_ªã	á?Û9URPƒà?(ê'æ±Uã?û|A&},ã?»nV¡9â?        ÿ+5%Pæ?ZN4¥×?•Ø\ã?¨ÍX¤Á®Ó?`ÔŞ±äÉ?4]e"8Ì?NË{n\Ëà?€^B'Ô?‚T3¥Ëè?ˆÁöhÇ?X3áj+«Ü?$ë9’*B×?P=æ%tá?ò¢úïéôä?éÍp‹ä?Î5ƒ%ZÓ?zıÀØ³Ğ?@&$U´øŞ?~Rœ§má?`¼Öõëhä?ï’Iúgã?š| •¶æ?À6@ËKOÀ?–¶dNå?@ìp2ÂŒ?,Ëd"Öİ?        b6Z'òÖ?ôok-ã"Ë?sø—×Ç¾à?:æ»ÔGšÕ?°Xu¼uÃ?P‹ïA™€Ö?h¼Ğ0éDŞ?€Ò§w­5×?ğ³ÆwÒ?YÇV÷„æ?&0Å×ÿuÙ?rHSP:,Ó?µoQ° á?xs¤ †IÎ?¦Æ¾yÛ*Ğ?¬èµ6^â?<¨¦×[Ò?@tYzl”?JÅñ·ù7ç?`ì±¸šÖ? ıëÎ©'º?ìˆ4ÖÒá?â<£=Dà?ê©„ Õ?Ô¾¥ö‡ôÜ?.úMQÚ?\¤ÅçzÔ?æ26{ä?;KNlÂå?F+Cã¢¦Û?öy~Í'€á?V|ş-gzÙ?Ğ „ÑµéŞ?V|ş-gzÙ?Š3bÓ?3z3†@â?T·{j Ñ?Âªò˜Š:à?JÀä¿0Û? ¡_MÖ‘i?Æn¹¡5‡ã?šH|AÖÚ?úîæÿ6ƒÜ?        Œ)U¿âà?4íçÊ à?Ÿö0À?        ¤Ç`Ô{Ò?øÇ^ Ğ¾?<‚M¿È?•S€á?B:£×0æ?3Y‘øà?Šº«A€ã?H[øàRä?™7âÔ?ğ!}F¿4©?ªÓğïçÚ?päI¿;Ú?†üO÷ ƒà?œSØe×Ô?ÀqğÎç?*-ó)Ù?@8®:®Á?wÁM"·—ä?à?~rÕÉ? ¸}á¹gº?RÀBÄX^Ğ?D¥JNaÈ?xqj˜å0æ?¥Ğ”écâ?2‹RæÖÛ?†zÅ'Ø? ĞĞ:Åˆ>?êOšÜ?ğŸ S4©?–mˆAbâ?.¦­xäüÑ?ğÇt‘İÊ¹?|lR…ŸyÊ?æ_ö$ªÙ?šªw§øÉä?(Ï¯C¹^³?¶,»Ú#òÛ?        Í$ŞŞæ?´—}ZĞ"×?ˆ=¥ÆÜ?hù,åS¬Ö?q›aiĞ?¤r¡Mÿç?Èƒ ½rdä?º>	º¾ÚØ?œNÆd¼¡Ğ?        89r×jÙ?SÒ~´œÒ?ÅáŠiúØà?IAßb+Û?îº­WìÜĞ?L	x:à â?²ÌO˜³1Ó?¤íŠ#±rÜ?ş/ åáİé?ĞÇ¢TpÊ?íïì éÚå?Ş6ÖÚWæÙ?Ş¹2Á`Tè?ˆ3‰AÂóÜ?ø@Äã›İÜ?¸ßôd»â?¬»ƒJà?¶&8¸â?Æ%oHnUİ?âp [áÙ?b¢³~¿™Ó?æ›_:ˆİ?À®“¹Ô?8ÄÆ}Á‰á?ô/§ö5yÍ?:x¿Hƒ Ø?        V|ş-gzÙ?        æGp›#Û?®rÿB ã?î'9„7à? :¶<òÉ?˜¯§ª·â?b
+1üŞ?        RCP S×?¼†N [â?        fE,×#á?®~mª›à?Èu”h­è? Yg5à7Ì?‰G'Ú/3â?        ¸D›~Ö€å?<¥›F¯ü×?         úùWZÍŞ?´œ¾˜6mâ? ê±§ŞÜª?¤8ªƒŠË?Ÿö0À?6ˆZd ĞŞ?ØŞKPCÙ»?¶¬xÁ iÖ?åôŠ1è?šŸ#•«ğè?”8TÇU(Ï?,£j¼ŞÖ?4BéÔÓ?›sÛ%'0ç?*íêíã?@¨Œk©á?€ëÍ˜bÙ?èÙ€öß?.w¸eõæ?ğş¡I‚Ï?nëÅ’ægÜ?DW5D.òà? Ái~g?š¶åÏ¡Õ?üñÛ5ÖgÃ?Èïb$ÂÒ?Œù_xWÍ?Î½nõÒ•è?Fqy=`rÓ?V7v‘Àİ?        tGkÃ{á?HYoh†Õ?Z§ş‹¾Àã? Etëâ?ø}W`×?Ú€\3äà?¬–÷&Õ?$ä$á?Î	„œä?@Ìa…ëìÕ?È&]€µä?>~bJlxØ?~'wø¦:æ?^‰ó"Ö?'<|‚~â?,YOG©3Ó?w}æŞ”á?ÔKö²;ç?|šzË?Úå?X—®(¸ãÒ?°WL?3Ò?† œ–Õ?"ÏéØKÕ?V|ş-gzÙ?ÿ›ç}{$â?Ïx Qá?"%#org.tribuo.math.distance.L2Distance*ŒU3YÈËê?xorg.tribuo.math.la.DenseVectorV
+5type.googleapis.com/tribuo.math.impl.DenseTensorProto
+,e—¼nÀŒ³à¡!@$jÈŒ§ü¿!      ğÿ*…xorg.tribuo.math.la.DenseVectorV
+5type.googleapis.com/tribuo.math.impl.DenseTensorProto
+o<ĞÜÁvõ¿ğS;ÌŸÈ@¶¯Œ"@!      ğÿ* ©/·y?xorg.tribuo.math.la.DenseVectorV
+5type.googleapis.com/tribuo.math.impl.DenseTensorProto
+ØëÖ#Ïû¿	ú#—S) @ôéRs0M$@!      ğÿ*€ùd
+D„?xorg.tribuo.math.la.DenseVectorV
+5type.googleapis.com/tribuo.math.impl.DenseTensorProto
+~®ÑµÒ÷¿Sîu/cè @SU´ô²"@!      ğÿ*ÀŞzBÆ„Œ?xorg.tribuo.math.la.DenseVectorV
+5type.googleapis.com/tribuo.math.impl.DenseTensorProto
+iô- Íuö¿Líà8ù @GèT÷³"@!      ğÿ*@ìp2ÂŒ?xorg.tribuo.math.la.DenseVectorV
+5type.googleapis.com/tribuo.math.impl.DenseTensorProto
+unáM¯]ş¿‚ÁZ‚ğ @ˆ¹½KŒ¼"@!      ğÿ*€çúÙ?xorg.tribuo.math.la.DenseVectorV
+5type.googleapis.com/tribuo.math.impl.DenseTensorProto
+ÛÈ™ŒÊû¿{^Ÿª} @ÏN×Y#@!      ğÿ*`	e?xorg.tribuo.math.la.DenseVectorV
+5type.googleapis.com/tribuo.math.impl.DenseTensorProto
+Ömü[… À–Û¯1t)!@©Mg^t#@!      ğÿ*ğŸ S4©?xorg.tribuo.math.la.DenseVectorV
+5type.googleapis.com/tribuo.math.impl.DenseTensorProto
+™[ÄC’ó¿ŠÄn>Ê @¶p@hÿN$@!      ğÿ*…xorg.tribuo.math.la.DenseVectorV
+5type.googleapis.com/tribuo.math.impl.DenseTensorProto
+@4n£wÓ?kGí?­ë¿e…ÄJ¶@!      ğÿ* mëŒ§m?xorg.tribuo.math.la.DenseVectorV
+5type.googleapis.com/tribuo.math.impl.DenseTensorProto
+ O^ñ=¶ì?^®ğÛ¨qò¿7nÜ¼•
+@!      ğÿ* æî`Ó•?xorg.tribuo.math.la.DenseVectorV
+5type.googleapis.com/tribuo.math.impl.DenseTensorProto
+í:ÿÏ4
+î?'Ù¹Şí¿ŸŞÌ®l@!      ğÿ*`%“nÆˆ˜?xorg.tribuo.math.la.DenseVectorV
+5type.googleapis.com/tribuo.math.impl.DenseTensorProto
+äµV‹J"î?’ä­~Hì¿Ü:í@!      ğÿ*À®7Ú?xorg.tribuo.math.la.DenseVectorV
+5type.googleapis.com/tribuo.math.impl.DenseTensorProto
+fÑZ Dú?YõÂÏéPó¿NºÖp@!      ğÿ*à?~rÕÉ?xorg.tribuo.math.la.DenseVectorV
+5type.googleapis.com/tribuo.math.impl.DenseTensorProto
+¬R½ÓÑä?tu"Çòræ¿9¼eÛô@!      ğÿ*àl¸=GÒ?xorg.tribuo.math.la.DenseVectorV
+5type.googleapis.com/tribuo.math.impl.DenseTensorProto
+q_
+9Ÿñï?½‡*©–›ï¿y˜­#P@!      ğÿ* z»S»¦?xorg.tribuo.math.la.DenseVectorV
+5type.googleapis.com/tribuo.math.impl.DenseTensorProto
+b‘bWS'ö?A"%V#ú¿‰•;E¸e@!      ğÿ*…xorg.tribuo.math.la.DenseVectorV
+5type.googleapis.com/tribuo.math.impl.DenseTensorProto
+[dhğ¿šçÖÖ@²ª''É©ø?!      ğÿ* ĞĞ:Åˆ>?xorg.tribuo.math.la.DenseVectorV
+5type.googleapis.com/tribuo.math.impl.DenseTensorProto
+;›æã*ø?Wj3²—|@¦\±¬ë@!      ğÿ* Ü~9e?xorg.tribuo.math.la.DenseVectorV
+5type.googleapis.com/tribuo.math.impl.DenseTensorProto
+ÆĞ–¼f	À€øúHb@j“‘}>Ö¿!      ğÿ* Ái~g?xorg.tribuo.math.la.DenseVectorV
+5type.googleapis.com/tribuo.math.impl.DenseTensorProto
+>!fîÀ/İöC@‰ò@uQ¿ã?!      ğÿ* ¡_MÖ‘i?xorg.tribuo.math.la.DenseVectorV
+5type.googleapis.com/tribuo.math.impl.DenseTensorProto
+xÕ8]s~ş¿èX®A`ü@ªÉ"ŞYuå¿!      ğÿ*€P½Ô¼€?xorg.tribuo.math.la.DenseVectorV
+5type.googleapis.com/tribuo.math.impl.DenseTensorProto
+ğ/\Ø°ùï?ßæEª+@˜¼_Õ¼ˆ @!      ğÿ*€—
+÷¬”?xorg.tribuo.math.la.DenseVectorV
+5type.googleapis.com/tribuo.math.impl.DenseTensorProto
+‘.H1HÀoôq  @i ·Ú?!      ğÿ*@tYzl”?xorg.tribuo.math.la.DenseVectorV
+5type.googleapis.com/tribuo.math.impl.DenseTensorProto
+UŞğ­À¤¦d™òv@§t#(ıæ?!      ğÿ* ·Q®è•”?xorg.tribuo.math.la.DenseVectorV
+5type.googleapis.com/tribuo.math.impl.DenseTensorProto
+V¢Ï¾ß?\¶ §õ@Æ%cê@!      ğÿ*`d¯·œ8–?xorg.tribuo.math.la.DenseVectorV
+5type.googleapis.com/tribuo.math.impl.DenseTensorProto
+ïİLå´ö?o·°EK@¨«êxA@!      ğÿ*àc©¢¹Ô™?xorg.tribuo.math.la.DenseVectorV
+5type.googleapis.com/tribuo.math.impl.DenseTensorProto
+š¶Kht1ü?rX¼:ü@¤Ã…bóŸú?!      ğÿ*€l©$ fœ?xorg.tribuo.math.la.DenseVectorV
+5type.googleapis.com/tribuo.math.impl.DenseTensorProto
+`±¸mş¿»	5¡&ë@ áÏ|¿­?!      ğÿ*Pßnˆ†¡?xorg.tribuo.math.la.DenseVectorV
+5type.googleapis.com/tribuo.math.impl.DenseTensorProto
+œ,©îDæ?ş×ğ™Cƒ@Í•²@!      ğÿ* \™Cöí¢?xorg.tribuo.math.la.DenseVectorV
+5type.googleapis.com/tribuo.math.impl.DenseTensorProto
+M™yhíò?ÇXÒ¡İV@ Ï§AõZ@!      ğÿ*ğ>(™]£¥?xorg.tribuo.math.la.DenseVectorV
+5type.googleapis.com/tribuo.math.impl.DenseTensorProto
+•ÜÄp*ÀoßL@¨}ç·2Ò»?!      ğÿ*`}"ÄVr¦?xorg.tribuo.math.la.DenseVectorV
+5type.googleapis.com/tribuo.math.impl.DenseTensorProto
+ê>>‹*ÿ¿wåÉRx@­İW
+Ô?!      ğÿ
